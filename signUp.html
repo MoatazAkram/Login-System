@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container my-5 text-center">
+        <div class="content w-75 p-5 m-auto">
+            <h1>Smart Login System</h1>
+            <input id="username" type="text" class="form-control my-3" placeholder="Enter your name">
+            <input id="useremail" type="text" class="form-control my-3" placeholder="Enter your email">
+            <input id="userpassword" type="password" class="form-control my-3" placeholder="Enter password">
+            <p id="success">
+                <span class="text-success m-3 d-none">Success</span>
+            </p>
+            <p id="exist">
+                <span class="m-3 text-danger d-none">email already exists</span>
+            </p>
+            <p id="empty">
+                <span class="text-danger m3 d-none">All inputs is required</span>
+            </p>
+            <button id="signUp" class="btn btn-outline-info my-3 w-100">Sign Up</button> 
+            <p>
+                You have an account?
+                <a href="./index.html">Sign in</a>
+            </p>
+        </div>
+    </div>
+
+
+    <script src="./js/signUp.js"></script>
+</body>
+</html>
